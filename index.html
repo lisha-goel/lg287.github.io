@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lisha Goel - Academic Portfolio</title>
+    <style>
+        /* Basic Styling */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+
+        /* Header & Navigation */
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #eee;
+        }
+        header h1 {
+            margin: 0;
+            color: #222;
+        }
+        header p {
+            font-size: 1.1em;
+            color: #555;
+            margin: 5px 0;
+        }
+        .contact-links {
+            margin-top: 15px;
+        }
+        .contact-links a {
+            text-decoration: none;
+            color: #007BFF;
+            margin: 0 10px;
+            font-weight: 500;
+        }
+        .contact-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* Resume Button */
+        .resume-button {
+            display: inline-block;
+            background-color: #007BFF;
+            color: #ffffff;
+            padding: 12px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-top: 15px;
+            transition: background-color 0.3s ease;
+        }
+        .resume-button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Sections */
+        .section {
+            margin-top: 30px;
+        }
+        .section h2 {
+            padding-bottom: 10px;
+            border-bottom: 2px solid #eee;
+            color: #0056b3;
+        }
+
+        /* Job/Project/Education Entry */
+        .entry {
+            margin-bottom: 20px;
+        }
+        .entry h3 {
+            margin: 0;
+            color: #333;
+        }
+        .entry .title {
+            font-style: italic;
+            color: #555;
+            margin: 2px 0;
+            font-weight: bold;
+        }
+        .entry .date {
+            font-size: 0.9em;
+            color: #777;
+        }
+        .entry ul {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+
+        /* Achievements List */
+        .achievements-list li {
+            margin-bottom: 8px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            font-size: 0.9em;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Lisha Goel</h1>
+            <p>B.Tech Final Year Student, Electrical Engineering</p>
+            <p>Indian Institute of Technology, Delhi</p>
+            
+            <div class="contact-links">
+                <a href="mailto:lishagoel287@gmail.com">Email</a> |
+                <a href="https://linkedin.com/in/lisha-goel-a46413282" target="_blank">LinkedIn</a> |
+                <a href="https://github.com/lg287" target="_blank">GitHub</a>
+            </div>
+            
+            <a href="resume_khs.pdf" class="resume-button" target="_blank">Download Full Resume (PDF)</a>
+        </header>
+
+        <div class="section">
+            <h2>About Me</h2>
+            <p>
+                I am a final-year Electrical Engineering undergraduate at IIT Delhi [cite: 4, 6] with a CGPA of 9.35 [cite: 10] and a department rank of 5[cite: 12]. My academic and research interests lie at the intersection of quantum systems, solid-state devices, and bioelectronics. I have hands-on experience in circuit design for quantum simulation [cite: 15], analog validation at Texas Instruments [cite: 16], and fabricating flexible magnetic sensors[cite: 21, 22]. I am currently seeking opportunities to pursue higher studies and contribute to cutting-edge research.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <div class="entry">
+                <h3>Indian Institute of Technology, Delhi</h3>
+                <p class="title">B.Tech. Electrical Engineering</p>
+                <p class="date">2022 - 2026 (Expected)</p>
+                <ul>
+                    <li><strong>Current CGPA:</strong> 9.35 / 10.0</li>
+                </ul>
+            </div>
+            <div class="entry">
+                <h3>Delhi Public School R.K. Puram, CBSE</h3>
+                <p class="title">Senior Secondary (XII) & Secondary (X)</p>
+                <p class="date">2020 - 2022</p>
+                <ul>
+                    <li><strong>Senior Secondary:</strong> 97.2%</li>
+                    <li><strong>Secondary:</strong> 96.4%</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Experience</h2>
+            <div class="entry">
+                <h3>Texas Instruments India</h3>
+                <p class="title">Summer Internship - Analog Intern</p>
+                <p class="date">May 2025 - July 2025 | Bengaluru, India</p>
+                <ul>
+                    <li>Developed an automation framework for report generation and value abstraction from large validation datasets.</li>
+                    <li>Integrated this framework with BLDC Motor driver devices, reducing algorithmic validation time from 2 weeks to 2 days and minimizing manual intervention.</li>
+                </ul>
+            </div>
+            <div class="entry">
+                <h3>Summer Undergraduate Research Intern (SURA), IIT Delhi</h3>
+                <p class="title">Under Prof. Abhisek Dixit</p>
+                <p class="date">May 2024 - July 2024 | Delhi, India</p>
+                <ul>
+                    <li>Developed a circuit-based model for simulating quantum entanglement in multi-qubit systems based on electron spin qubits.</li>
+                    <li>Simulated Bell States with prolonged coherence time (100µs) and modeled a CNOT Gate with 80% fidelity.</li>
+                    <li>This novel technology is currently under the process of being patented.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Key Projects</h2>
+            <div class="entry">
+                <h3>Magnetoreception of spin in biomolecules for Skin Cancer Treatment</h3>
+                <p class="title">Guide: Prof. Aarat Kalra (Centre of Biomedical Research, IIT Delhi)</p>
+                <p class="date">Apr 2025 - Ongoing</p>
+                <ul>
+                    <li>Studying singlet-to-triplet state conversion in molecules under magnetic/electric fields to understand the migratory bird navigation mechanism.</li>
+                    <li>Developing this methodology to force oxygen into a triplet state for potential skin cancer therapy.</li>
+                </ul>
+            </div>
+            <div class="entry">
+                <h3>Fabrication of Flexible Magnetic Sensors for e-skin and VR Systems</h3>
+                <p class="title">Guide: Professor Pintu Das (Department of Physics, IIT Delhi)</p>
+                <p class="date">Mar 2023 - Ongoing</p>
+                <ul>
+                    <li>Fabricated and characterized flexible planar hall effect-based magnetic sensors for sub-nanoTesla sensitivity.</li>
+                    <li>Developed a contact-less 3-D screen control system and a sensor-based surgical needle control.</li>
+                </ul>
+            </div>
+            <div class="entry">
+                <h3>Underwater Acoustic Tonals Detection using Adaptive Line Enhancers</h3>
+                <p class="title">Guide: Prof. Arun Kumar & Prof. Akash Arora (CARE, IIT Delhi)</p>
+                <p class="date">Apr 2024 - May 2025</p>
+                <ul>
+                    <li>Identified and amplified harmonics (tonals) of SNR as low as -4dB from underwater acoustic data.</li>
+                    <li>Implemented frequency-domain sparsity-based algorithms to reliably predict the presence of stealth submarines.</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Key Achievements & Awards</h2>
+            <ul class="achievements-list">
+                <li><strong>Department Rank 5</strong>, IIT Delhi Electrical Engineering Department (Aug 2025)</li>
+                <li><strong>Mittal Rennaisance Scholarship Award</strong>, Awarded to top 15 all-rounders (Feb 2025)</li>
+                <li><strong>Joint Engineering Exam (JEE) ADVANCED</strong>, Secured AIR 1453 (Oct 2022)</li>
+                <li><strong>IISER Aptitude Test</strong>, Secured AIR 11 (Jun 2022)</li>
+                <li><strong>Barclays Women in Finance Mentorship</strong>, Selected in top 5 girls (Jul 2024)</li>
+                <li><strong>Texas Instruments, Women in Silicon Hardware</strong> Mentorship (Jun 2024)</li>
+                <li><strong>Vice Captain, Institute Squash Team</strong>, Won Inter IIT National Women's Squash Gold (2024) [cite: 31]</li>
+            </ul>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 Lisha Goel</p>
+        </footer>
+
+    </div>
+</body>
+</html>
